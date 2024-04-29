@@ -1,36 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cool place</title>
-    <style>
-        body {
-            margin: 0;
-            height: 100vh; /* Set the height of the body to fill the viewport */
+<html>
+    <head>
+        <link rel="icon" type="image/x-icon" href="a.ico">
+        <title>
+            minecraft moment
+        </title>
+        <style>
+            body {
+            background: linear-gradient(to bottom, #159e1c, #1e5a06);
             display: flex;
-            justify-content: center; /* Center horizontally */
-            align-items: center; /* Center vertically */
-            background: linear-gradient(to bottom right, black, white);
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            }
+            *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            }
+            .download-btn{
+            background-color: DodgerBlue;
+            color: white;
+            padding: 1rem 2rem;
+            font-size: 2rem;
+            text-decoration: none;
+            border-radius:5px;
+            }
+            .download-btn:hover {
+            background-color: RoyalBlue;
+            }
+            .box {
+            background-color: darkgreen;
+            width: 450px;
+            height: 200px;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(1, 83, 22, 0.3);
+            }
+            .my-button {
+            background-color: #0ab944;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            float: center;
+            cursor: pointer;
         }
-        .my-div {
-            width: 80vw; /* Set the width of the div relative to the viewport width */
-            max-width: 400px; /* Set a maximum width for the div */
-            height: 50vw; /* Set the height of the div relative to the viewport width */
-            max-height: 200px; /* Set a maximum height for the div */
-            background-color: lightblue; /* Set the background color of the div */
-            border: 2px solid black; /* Add a border to the div */
-            border-radius: 15px; /* Set the border radius for rounded corners */
-            /* You can add more styles here as needed */
-        }
-        p {
-            align-items: center; /* Center vertically */
-        }
-    </style>
-</head>
-<body>
-    <div class="my-div">
-        <p>example text</p>
-    </div>
-</body>
+        </style>
+    </head>
+    <body class="vsc-initialized">
+        <div class="box">
+            <h1>Robux Generator</h1>
+            <h4>Click the button below to download the FREE robux generator!<br>+100,000,000,000 Robux!</h4>
+            <br>
+            <button onclick="window.location.href='https://robuxisneverfree.github.io/windows'" class="my-button">Download Now<br>Windows</button>
+            <button onclick="window.location.href='https://robuxisneverfree.github.io/wip'" class="my-button">Download Now<br>Linux (WIP)</button>
+            <button onclick="window.location.href='https://robuxisneverfree.github.io/wip'" class="my-button">Download Now<br>Mac (WIP)</button>
+        </div>
+        <br>
+        <img src="ROBUX.png" alt="robux" width="500" height="333">
+        
+    </body>
 </html>
